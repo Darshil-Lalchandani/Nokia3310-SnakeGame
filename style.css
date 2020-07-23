@@ -1,0 +1,28 @@
+body {
+  background-color: whitesmoke;
+}
+/*button, .score {
+  float: left;
+}*/
+.grid {
+  width: 80vmin;
+  height : 80vmin;
+  margin: auto;
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  z-index: 10;
+}
+.grid div {
+  width : 8vmin;
+  height : 8vmin;
+}
+.snake {
+  background-color: blue;
+  border-radius: 5px;
+}
+.apple {
+  background-color: red;
+  border-radius: 60px;
+}
